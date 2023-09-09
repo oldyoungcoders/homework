@@ -1,0 +1,144 @@
+<!-- 
+batbo@LAPTOP-GJ2C3BJD MINGW64 ~
+$ pwd
+/c/Users/batbo
+
+batbo@LAPTOP-GJ2C3BJD MINGW64 ~
+$ cd
+
+batbo@LAPTOP-GJ2C3BJD MINGW64 ~
+$ cd Desktop
+
+batbo@LAPTOP-GJ2C3BJD MINGW64 ~/Desktop
+$ cd ts-202
+
+batbo@LAPTOP-GJ2C3BJD MINGW64 ~/Desktop/ts-202
+$ ls
+lab1/  lab2/  lab3/
+
+batbo@LAPTOP-GJ2C3BJD MINGW64 ~/Desktop/ts-202
+$ cd lab3pwd
+
+batbo@LAPTOP-GJ2C3BJD MINGW64 ~/Desktop/ts-202/lab3
+$ pwd
+/c/Users/batbo/Desktop/ts-202/lab3
+
+batbo@LAPTOP-GJ2C3BJD MINGW64 ~/Desktop/ts-202/lab3
+$ git init
+Initialized empty Git repository in C:/Users/batbo/Desktop/ts-202/lab3/.git/
+
+batbo@LAPTOP-GJ2C3BJD MINGW64 ~/Desktop/ts-202/lab3 (master)
+$ git status
+On branch master -->
+<!-- 
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        app.js
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+batbo@LAPTOP-GJ2C3BJD MINGW64 ~/Desktop/ts-202/lab3 (master) -->
+$ git add -A
+
+batbo@LAPTOP-GJ2C3BJD MINGW64 ~/Desktop/ts-202/lab3 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   app.js
+        new file:   index.html
+
+
+batbo@LAPTOP-GJ2C3BJD MINGW64 ~/Desktop/ts-202/lab3 (master)
+$ git comment -m "lab3 oruullaa"
+git: 'comment' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+batbo@LAPTOP-GJ2C3BJD MINGW64 ~/Desktop/ts-202/lab3 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   app.js
+        new file:   index.html
+
+
+batbo@LAPTOP-GJ2C3BJD MINGW64 ~/Desktop/ts-202/lab3 (master)
+$ git remote add origin https://github.com/oldyoungcoders/age.git
+
+batbo@LAPTOP-GJ2C3BJD MINGW64 ~/Desktop/ts-202/lab3 (master)
+$ git remote -v
+origin  https://github.com/oldyoungcoders/age.git (fetch)
+origin  https://github.com/oldyoungcoders/age.git (push)
+
+batbo@LAPTOP-GJ2C3BJD MINGW64 ~/Desktop/ts-202/lab3 (master)
+$ git branch
+
+batbo@LAPTOP-GJ2C3BJD MINGW64 ~/Desktop/ts-202/lab3 (master)
+$ git branch
+
+batbo@LAPTOP-GJ2C3BJD MINGW64 ~/Desktop/ts-202/lab3 (master)
+$ git origin master
+git: 'origin' is not a git command. See 'git --help'.
+
+batbo@LAPTOP-GJ2C3BJD MINGW64 ~/Desktop/ts-202/lab3 (master)
+$ git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/oldyoungcoders/age.git'
+
+batbo@LAPTOP-GJ2C3BJD MINGW64 ~/Desktop/ts-202/lab3 (master)
+$ git remote -v
+origin  https://github.com/oldyoungcoders/age.git (fetch)
+origin  https://github.com/oldyoungcoders/age.git (push)
+
+batbo@LAPTOP-GJ2C3BJD MINGW64 ~/Desktop/ts-202/lab3 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   app.js
+        new file:   index.html
+
+
+batbo@LAPTOP-GJ2C3BJD MINGW64 ~/Desktop/ts-202/lab3 (master)
+$ git commit -m "lab3"
+[master (root-commit) 287e44d] lab3
+ 2 files changed, 125 insertions(+)
+ create mode 100644 app.js
+ create mode 100644 index.html
+
+batbo@LAPTOP-GJ2C3BJD MINGW64 ~/Desktop/ts-202/lab3 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+batbo@LAPTOP-GJ2C3BJD MINGW64 ~/Desktop/ts-202/lab3 (master)
+$ git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.01 KiB | 1.01 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/oldyoungcoders/age.git
+ * [new branch]      master -> master
+
+batbo@LAPTOP-GJ2C3BJD MINGW64 ~/Desktop/ts-202/lab3 (master)
+$ ^C
+
+batbo@LAPTOP-GJ2C3BJD MINGW64 ~/Desktop/ts-202/lab3 (master)
+$
